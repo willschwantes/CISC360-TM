@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>tapeseg.dig</elementName>
+      <elementAttributes/>
+      <pos x="520" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>tapeseg.dig</elementName>
+      <elementAttributes/>
+      <pos x="520" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>tapeseg.dig</elementName>
+      <elementAttributes/>
+      <pos x="520" y="-100"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="440" y="80"/>
+      <p2 x="520" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="0"/>
+      <p2 x="520" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="160"/>
+      <p2 x="520" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="240"/>
+      <p2 x="520" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="240"/>
+      <p2 x="700" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="20"/>
+      <p2 x="520" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="100"/>
+      <p2 x="520" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="100"/>
+      <p2 x="700" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-40"/>
+      <p2 x="520" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-40"/>
+      <p2 x="700" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="280"/>
+      <p2 x="520" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="-60"/>
+      <p2 x="520" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="220"/>
+      <p2 x="520" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="140"/>
+      <p2 x="520" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="300"/>
+      <p2 x="520" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="-100"/>
+      <p2 x="480" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="0"/>
+      <p2 x="480" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="140"/>
+      <p2 x="480" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="280"/>
+      <p2 x="480" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-100"/>
+      <p2 x="500" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="20"/>
+      <p2 x="500" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="160"/>
+      <p2 x="500" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="300"/>
+      <p2 x="500" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="-100"/>
+      <p2 x="440" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="-60"/>
+      <p2 x="440" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="80"/>
+      <p2 x="440" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="220"/>
+      <p2 x="440" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-100"/>
+      <p2 x="460" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-40"/>
+      <p2 x="460" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="100"/>
+      <p2 x="460" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="240"/>
+      <p2 x="460" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="-100"/>
+      <p2 x="700" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="-40"/>
+      <p2 x="700" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="100"/>
+      <p2 x="700" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="240"/>
+      <p2 x="700" y="360"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
