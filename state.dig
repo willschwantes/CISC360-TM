@@ -7,6 +7,10 @@
       <shapeType>LAYOUT</shapeType>
     </entry>
     <entry>
+      <string>isGeneric</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
       <string>romContent</string>
       <romList>
         <roms/>
@@ -14,15 +18,11 @@
     </entry>
     <entry>
       <string>Height</string>
-      <int>4</int>
+      <int>5</int>
     </entry>
     <entry>
       <string>Width</string>
       <int>8</int>
-    </entry>
-    <entry>
-      <string>isGeneric</string>
-      <boolean>true</boolean>
     </entry>
   </attributes>
   <visualElements>
@@ -286,12 +286,12 @@ Update Active</string>
       <elementName>Const</elementName>
       <elementAttributes>
         <entry>
-          <string>intFormat</string>
-          <intFormat>hex</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
         </entry>
         <entry>
           <string>generic</string>
