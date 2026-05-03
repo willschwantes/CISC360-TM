@@ -4,6 +4,7 @@
   <attributes/>
   <visualElements>
 
+    <!-- Output pins -->
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
@@ -67,6 +68,16 @@
         </entry>
       </elementAttributes>
       <pos x="780" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>left</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="100"/>
     </visualElement>
 
     <visualElement>
@@ -169,7 +180,7 @@
       <pos x="800" y="260"/>
     </visualElement>
 
-<!-- MAIN INIT STATES -->
+    <!-- MAIN INIT STATES -->
     <visualElement>
       <elementName>Const</elementName>
       <elementAttributes>
@@ -225,16 +236,6 @@
       <elementName>initstate.dig</elementName>
       <elementAttributes/>
       <pos x="460" y="200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>left</string>
-        </entry>
-      </elementAttributes>
-      <pos x="800" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
