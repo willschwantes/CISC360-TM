@@ -21,7 +21,7 @@ shift :=
 //</string>
         </entry>
       </elementAttributes>
-      <pos x="0" y="0"/>
+      <pos x="0" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -59,7 +59,7 @@ shift :=
           <string>shift := 0x3000;</string>
         </entry>
       </elementAttributes>
-      <pos x="0" y="200"/>
+      <pos x="0" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>state.dig</elementName>
@@ -73,7 +73,7 @@ shift :=
           <string>shift := 0x3000;</string>
         </entry>
       </elementAttributes>
-      <pos x="0" y="400"/>
+      <pos x="0" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -101,7 +101,7 @@ shift :=
           <string>t2</string>
         </entry>
       </elementAttributes>
-      <pos x="100" y="140"/>
+      <pos x="80" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -163,7 +163,7 @@ shift :=
           <string>t3</string>
         </entry>
       </elementAttributes>
-      <pos x="220" y="340"/>
+      <pos x="240" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -191,7 +191,7 @@ shift :=
           <string>t</string>
         </entry>
       </elementAttributes>
-      <pos x="460" y="540"/>
+      <pos x="480" y="540"/>
     </visualElement>
     <visualElement>
       <elementName>Clock</elementName>
@@ -215,7 +215,7 @@ shift :=
           <string>g0</string>
         </entry>
       </elementAttributes>
-      <pos x="120" y="140"/>
+      <pos x="100" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>start.dig</elementName>
@@ -248,7 +248,7 @@ shift :=
           <string>t2</string>
         </entry>
       </elementAttributes>
-      <pos x="60" y="140"/>
+      <pos x="40" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -262,7 +262,7 @@ shift :=
           <string>g0</string>
         </entry>
       </elementAttributes>
-      <pos x="80" y="140"/>
+      <pos x="60" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -274,6 +274,20 @@ shift :=
         <entry>
           <string>NetName</string>
           <string>t2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>g0</string>
         </entry>
       </elementAttributes>
       <pos x="20" y="140"/>
@@ -287,10 +301,10 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
-          <string>g0</string>
+          <string>t2</string>
         </entry>
       </elementAttributes>
-      <pos x="40" y="140"/>
+      <pos x="120" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -301,7 +315,7 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
-          <string>t2</string>
+          <string>g0</string>
         </entry>
       </elementAttributes>
       <pos x="140" y="140"/>
@@ -315,63 +329,7 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
-          <string>g0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="160" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
           <string>t2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="260" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>g0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="280" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>t2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="220" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>g0</string>
         </entry>
       </elementAttributes>
       <pos x="240" y="140"/>
@@ -385,10 +343,10 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
-          <string>t2</string>
+          <string>g0</string>
         </entry>
       </elementAttributes>
-      <pos x="180" y="140"/>
+      <pos x="260" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -399,7 +357,7 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
-          <string>g0</string>
+          <string>t2</string>
         </entry>
       </elementAttributes>
       <pos x="200" y="140"/>
@@ -413,7 +371,63 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
+          <string>g0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="220" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
           <string>t2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="160" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>g0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>t2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="280" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>g0</string>
         </entry>
       </elementAttributes>
       <pos x="300" y="140"/>
@@ -427,63 +441,7 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
-          <string>g0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="320" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
           <string>t2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="420" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>g0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="440" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>t2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="380" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>g0</string>
         </entry>
       </elementAttributes>
       <pos x="400" y="140"/>
@@ -497,10 +455,10 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
-          <string>t2</string>
+          <string>g0</string>
         </entry>
       </elementAttributes>
-      <pos x="340" y="140"/>
+      <pos x="420" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -511,7 +469,7 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
-          <string>g0</string>
+          <string>t2</string>
         </entry>
       </elementAttributes>
       <pos x="360" y="140"/>
@@ -525,7 +483,63 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
+          <string>g0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
           <string>t2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>g0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>t2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>g0</string>
         </entry>
       </elementAttributes>
       <pos x="460" y="140"/>
@@ -539,63 +553,7 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
-          <string>g0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="480" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
           <string>t2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>g0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="600" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>t2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="540" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>g0</string>
         </entry>
       </elementAttributes>
       <pos x="560" y="140"/>
@@ -609,10 +567,10 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
-          <string>t2</string>
+          <string>g0</string>
         </entry>
       </elementAttributes>
-      <pos x="500" y="140"/>
+      <pos x="580" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -623,7 +581,7 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
-          <string>g0</string>
+          <string>t2</string>
         </entry>
       </elementAttributes>
       <pos x="520" y="140"/>
@@ -637,10 +595,24 @@ shift :=
         </entry>
         <entry>
           <string>NetName</string>
+          <string>g0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
           <string>t2</string>
         </entry>
       </elementAttributes>
-      <pos x="620" y="140"/>
+      <pos x="480" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -654,7 +626,35 @@ shift :=
           <string>g0</string>
         </entry>
       </elementAttributes>
-      <pos x="640" y="140"/>
+      <pos x="500" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>t2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="600" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>g0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="140"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -699,70 +699,6 @@ shift :=
       <p2 x="-80" y="40"/>
     </wire>
     <wire>
-      <p1 x="100" y="120"/>
-      <p2 x="120" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="60" y="120"/>
-      <p2 x="80" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="20" y="120"/>
-      <p2 x="40" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="140" y="120"/>
-      <p2 x="160" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="260" y="120"/>
-      <p2 x="280" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="220" y="120"/>
-      <p2 x="240" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="180" y="120"/>
-      <p2 x="200" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="300" y="120"/>
-      <p2 x="320" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="420" y="120"/>
-      <p2 x="440" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="120"/>
-      <p2 x="400" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="340" y="120"/>
-      <p2 x="360" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="460" y="120"/>
-      <p2 x="480" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="120"/>
-      <p2 x="600" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="540" y="120"/>
-      <p2 x="560" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="500" y="120"/>
-      <p2 x="520" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="120"/>
-      <p2 x="640" y="120"/>
-    </wire>
-    <wire>
       <p1 x="660" y="460"/>
       <p2 x="680" y="460"/>
     </wire>
@@ -795,16 +731,8 @@ shift :=
       <p2 x="640" y="140"/>
     </wire>
     <wire>
-      <p1 x="260" y="100"/>
-      <p2 x="260" y="120"/>
-    </wire>
-    <wire>
       <p1 x="260" y="120"/>
       <p2 x="260" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="100"/>
-      <p2 x="580" y="120"/>
     </wire>
     <wire>
       <p1 x="580" y="120"/>
@@ -819,20 +747,8 @@ shift :=
       <p2 x="520" y="140"/>
     </wire>
     <wire>
-      <p1 x="460" y="500"/>
-      <p2 x="460" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="460" y="100"/>
-      <p2 x="460" y="120"/>
-    </wire>
-    <wire>
       <p1 x="460" y="120"/>
       <p2 x="460" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="140" y="100"/>
-      <p2 x="140" y="120"/>
     </wire>
     <wire>
       <p1 x="140" y="120"/>
@@ -847,16 +763,8 @@ shift :=
       <p2 x="400" y="140"/>
     </wire>
     <wire>
-      <p1 x="20" y="100"/>
-      <p2 x="20" y="120"/>
-    </wire>
-    <wire>
       <p1 x="20" y="120"/>
       <p2 x="20" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="340" y="100"/>
-      <p2 x="340" y="120"/>
     </wire>
     <wire>
       <p1 x="340" y="120"/>
@@ -871,44 +779,28 @@ shift :=
       <p2 x="600" y="140"/>
     </wire>
     <wire>
-      <p1 x="220" y="300"/>
-      <p2 x="220" y="340"/>
-    </wire>
-    <wire>
-      <p1 x="220" y="100"/>
-      <p2 x="220" y="120"/>
-    </wire>
-    <wire>
       <p1 x="220" y="120"/>
       <p2 x="220" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="540" y="100"/>
-      <p2 x="540" y="120"/>
     </wire>
     <wire>
       <p1 x="540" y="120"/>
       <p2 x="540" y="140"/>
     </wire>
     <wire>
-      <p1 x="160" y="120"/>
-      <p2 x="160" y="140"/>
+      <p1 x="480" y="520"/>
+      <p2 x="480" y="540"/>
     </wire>
     <wire>
       <p1 x="480" y="120"/>
       <p2 x="480" y="140"/>
     </wire>
     <wire>
-      <p1 x="100" y="100"/>
-      <p2 x="100" y="120"/>
+      <p1 x="160" y="120"/>
+      <p2 x="160" y="140"/>
     </wire>
     <wire>
       <p1 x="100" y="120"/>
       <p2 x="100" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="420" y="100"/>
-      <p2 x="420" y="120"/>
     </wire>
     <wire>
       <p1 x="420" y="120"/>
@@ -923,24 +815,20 @@ shift :=
       <p2 x="360" y="140"/>
     </wire>
     <wire>
-      <p1 x="300" y="100"/>
-      <p2 x="300" y="120"/>
+      <p1 x="620" y="120"/>
+      <p2 x="620" y="140"/>
     </wire>
     <wire>
       <p1 x="300" y="120"/>
       <p2 x="300" y="140"/>
     </wire>
     <wire>
-      <p1 x="620" y="100"/>
-      <p2 x="620" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="120"/>
-      <p2 x="620" y="140"/>
-    </wire>
-    <wire>
       <p1 x="240" y="120"/>
       <p2 x="240" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="320"/>
+      <p2 x="240" y="340"/>
     </wire>
     <wire>
       <p1 x="560" y="120"/>
@@ -955,40 +843,24 @@ shift :=
       <p2 x="-180" y="440"/>
     </wire>
     <wire>
-      <p1 x="180" y="100"/>
-      <p2 x="180" y="120"/>
-    </wire>
-    <wire>
       <p1 x="180" y="120"/>
       <p2 x="180" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="500" y="100"/>
-      <p2 x="500" y="120"/>
     </wire>
     <wire>
       <p1 x="500" y="120"/>
       <p2 x="500" y="140"/>
     </wire>
     <wire>
-      <p1 x="120" y="120"/>
-      <p2 x="120" y="140"/>
-    </wire>
-    <wire>
       <p1 x="440" y="120"/>
       <p2 x="440" y="140"/>
     </wire>
     <wire>
-      <p1 x="60" y="100"/>
-      <p2 x="60" y="120"/>
+      <p1 x="120" y="120"/>
+      <p2 x="120" y="140"/>
     </wire>
     <wire>
       <p1 x="60" y="120"/>
       <p2 x="60" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="100"/>
-      <p2 x="380" y="120"/>
     </wire>
     <wire>
       <p1 x="380" y="120"/>
