@@ -1,6 +1,6 @@
 # Usage: cat <machine_yaml_file_name> | python3 statemachine.py > statemachine.dig
 
-import yaml
+from ruamel.yaml import YAML
 import html
 
 TAPE_SYMBOLS = [
@@ -428,6 +428,7 @@ BOTTOM_OUTPUT_TUNNELS = """\
 """
 
 def main():
+        yaml = YAML(typ='safe')
         machine_yaml = yaml.load(input())
 
         visElems = (
@@ -518,15 +519,18 @@ def make_state(name, trans, i):
                         continue
                 for sym in k:
                         out[sym] = v
+        if not out:
+                out = {sym: {'R': None} for sym in TAPE_SYMBOLS}
+
         return out
 
 def make_bottom_tunnels(name, trans, i):
         out = "    <!-- The bottom tunnels -->\n"
         for j, sym in enumerate(TAPE_SYMBOLS):
                 gamma_prime = html.escape(trans['sym'].get('write', sym))
-                # TODO: does dict.get() fail if key is present but undefined?
                 q_prime = html.escape(
                         trans['sym'].get('R', trans['sym'].get('L', name)))
+                if q_prime is None: q_prime = name
                 out += f"""\
     <visualElement>
       <elementName>Tunnel</elementName>
