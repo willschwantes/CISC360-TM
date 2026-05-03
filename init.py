@@ -1,3 +1,5 @@
+# Usage: cat <tape_file_name> | python3 init.py > init.dig
+
 OUTPUT_PINS = """\
 
     <!-- Output pins -->
