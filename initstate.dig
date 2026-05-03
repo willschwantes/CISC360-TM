@@ -575,7 +575,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>SHR</string>
+          <string>Shift</string>
         </entry>
       </elementAttributes>
       <pos x="880" y="280"/>

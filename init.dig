@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>SHL</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SHL</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="20"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>SHR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SHR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="60"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>left</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="100"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="140"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="180"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>#</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>#</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="220"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>done</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>done</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="260"/>
+    </visualElement>
+
+<!-- MAIN INIT STATES -->
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Action</string>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>start.dig</elementName>
+      <elementAttributes/>
+      <pos x="340" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>initstate.dig</elementName>
+      <elementAttributes/>
+      <pos x="460" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>SHR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>left</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="160"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>initstate.dig</elementName>
+      <elementAttributes/>
+      <pos x="460" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>left</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>SHR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="260"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>initstate.dig</elementName>
+      <elementAttributes/>
+      <pos x="460" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>SHR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="360"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>initstate.dig</elementName>
+      <elementAttributes/>
+      <pos x="460" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>SHR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>#</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="460"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>initstate.dig</elementName>
+      <elementAttributes/>
+      <pos x="460" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>SHL</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>predone</string>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="620"/>
+    </visualElement>
+
+<!-- PREDONE/RESET STATE -->
+    <visualElement>
+      <elementName>state.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>generic</string>
+          <string>shift := 0x8000;</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-500" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>predone</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-520" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Lookup</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-580" y="400"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>SHL</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>SHR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="400"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>left</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-480" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-440" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>predone</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-420" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-400" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>predone</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-380" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>#</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-360" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>predone</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-340" y="480"/>
+    </visualElement>
+
+<!-- DONE/RESET STATE -->
+    <visualElement>
+      <elementName>state.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>generic</string>
+          <string>shift := 0xFFFF;</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-500" y="640"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>SHL</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="640"/>
+    </visualElement>
+
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-440" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>done</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-420" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-400" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>done</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-380" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>#</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-360" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>done</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-340" y="760"/>
+    </visualElement>
+
+  </visualElements>
+  <wires>
+
+    <wire><!-- second Action -->
+      <p1 x="440" y="240"/>
+      <p2 x="460" y="240"/>
+    </wire>
+    <wire><!-- second SHR -->
+      <p1 x="560" y="220"/>
+      <p2 x="580" y="220"/>
+    </wire>
+    <wire><!-- 0 -->
+      <p1 x="560" y="260"/>
+      <p2 x="580" y="260"/>
+    </wire>
+
+    <wire><!-- vertical Action second to third -->
+      <p1 x="440" y="240"/>
+      <p2 x="440" y="340"/>
+    </wire>
+
+    <wire><!-- third Action -->
+      <p1 x="440" y="340"/>
+      <p2 x="460" y="340"/>
+    </wire>
+    <wire><!-- third SHR -->
+      <p1 x="560" y="320"/>
+      <p2 x="580" y="320"/>
+    </wire>
+    <wire><!-- 1 -->
+      <p1 x="560" y="360"/>
+      <p2 x="580" y="360"/>
+    </wire>
+
+    <wire><!-- vertical Action third to fourth -->
+      <p1 x="440" y="340"/>
+      <p2 x="440" y="440"/>
+    </wire>
+
+    <wire><!-- fourth Action -->
+      <p1 x="440" y="440"/>
+      <p2 x="460" y="440"/>
+    </wire>
+    <wire><!-- fourth SHR -->
+      <p1 x="560" y="420"/>
+      <p2 x="580" y="420"/>
+    </wire>
+    <wire><!-- # -->
+      <p1 x="560" y="460"/>
+      <p2 x="580" y="460"/>
+    </wire>
+
+    <wire><!-- vertical Action fourth to fifth -->
+      <p1 x="440" y="440"/>
+      <p2 x="440" y="540"/>
+    </wire>
+
+    <wire><!-- to fifth Action -->
+      <p1 x="440" y="540"/>
+      <p2 x="460" y="540"/>
+    </wire>
+    <wire><!-- SHL -->
+      <p1 x="560" y="520"/>
+      <p2 x="580" y="520"/>
+    </wire>
+    <wire><!-- bottom 0 -->
+      <p1 x="560" y="560"/>
+      <p2 x="580" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="600"/>
+      <p2 x="500" y="620"/>
+    </wire>
+
+    <!-- non-variat -->
+    <wire><!-- done from q -->
+      <p1 x="-520" y="640"/>
+      <p2 x="-500" y="640"/>
+    </wire>
+    <wire><!-- done SHL -->
+      <p1 x="160" y="640"/>
+      <p2 x="180" y="640"/>
+    </wire>
+    <wire><!-- done to out -->
+      <p1 x="780" y="260"/>
+      <p2 x="800" y="260"/>
+    </wire>
+    <wire><!-- start.Acto to Action -->
+      <p1 x="420" y="140"/>
+      <p2 x="460" y="140"/>
+    </wire>
+    <wire><!-- 0 to out -->
+      <p1 x="780" y="140"/>
+      <p2 x="800" y="140"/>
+    </wire>
+    <wire><!-- Action in to split -->
+      <p1 x="300" y="140"/>
+      <p2 x="320" y="140"/>
+    </wire>
+    <wire><!-- split to start.Acti -->
+      <p1 x="320" y="140"/>
+      <p2 x="340" y="140"/>
+    </wire>
+    <wire><!-- above from start.fqo -->
+      <p1 x="440" y="80"/>
+      <p2 x="500" y="80"/>
+    </wire>
+    <wire><!-- predone SHR -->
+      <p1 x="160" y="400"/>
+      <p2 x="180" y="400"/>
+    </wire>
+    <wire><!-- Lookup to split -->
+      <p1 x="-580" y="400"/>
+      <p2 x="-540" y="400"/>
+    </wire>
+    <wire><!-- split to predone.Lookup -->
+      <p1 x="-540" y="400"/>
+      <p2 x="-500" y="400"/>
+    </wire>
+    <wire><!-- SHL to out -->
+      <p1 x="780" y="20"/>
+      <p2 x="800" y="20"/>
+    </wire>
+    <wire><!-- to done.Activating -->
+      <p1 x="-560" y="660"/>
+      <p2 x="-500" y="660"/>
+    </wire>
+    <wire><!-- zigzag between predone and done -->
+      <p1 x="-520" y="600"/>
+      <p2 x="-460" y="600"/>
+    </wire>
+    <wire><!-- # to out -->
+      <p1 x="780" y="220"/>
+      <p2 x="800" y="220"/>
+    </wire>
+    <wire><!-- left -->
+      <p1 x="560" y="160"/>
+      <p2 x="580" y="160"/>
+    </wire>
+    <wire><!-- left to out -->
+      <p1 x="780" y="100"/>
+      <p2 x="800" y="100"/>
+    </wire>
+    <wire><!-- predone from q -->
+      <p1 x="-520" y="360"/>
+      <p2 x="-500" y="360"/>
+    </wire>
+    <wire><!-- predone SHL -->
+      <p1 x="160" y="360"/>
+      <p2 x="180" y="360"/>
+    </wire>
+    <wire><!-- done.Lookup -->
+      <p1 x="-540" y="680"/>
+      <p2 x="-500" y="680"/>
+    </wire>
+    <wire><!-- long -->
+      <p1 x="-560" y="240"/>
+      <p2 x="320" y="240"/>
+    </wire>
+    <wire><!-- short near long on right -->
+      <p1 x="320" y="240"/>
+      <p2 x="440" y="240"/>
+    </wire>
+    <wire><!-- 1 to out -->
+      <p1 x="780" y="180"/>
+      <p2 x="800" y="180"/>
+    </wire>
+    <wire><!-- fqo short -->
+      <p1 x="420" y="120"/>
+      <p2 x="440" y="120"/>
+    </wire>
+    <wire><!-- first SHR -->
+      <p1 x="560" y="120"/>
+      <p2 x="580" y="120"/>
+    </wire>
+    <wire><!-- fqi -->
+      <p1 x="320" y="120"/>
+      <p2 x="340" y="120"/>
+    </wire>
+    <wire><!-- SHR to out -->
+      <p1 x="780" y="60"/>
+      <p2 x="800" y="60"/>
+    </wire>
+    <wire><!-- predone.Activating -->
+      <p1 x="-560" y="380"/>
+      <p2 x="-500" y="380"/>
+    </wire>
+    <wire><!-- vertical from Action in split -->
+      <p1 x="320" y="140"/>
+      <p2 x="320" y="240"/>
+    </wire>
+    <wire><!-- 0 Q' predone -->
+      <p1 x="-420" y="460"/>
+      <p2 x="-420" y="480"/>
+    </wire>
+    <wire><!-- 0 Q' done -->
+      <p1 x="-420" y="740"/>
+      <p2 x="-420" y="760"/>
+    </wire>
+    <wire><!-- # G' predone -->
+      <p1 x="-360" y="460"/>
+      <p2 x="-360" y="480"/>
+    </wire>
+    <wire><!-- # G' done -->
+      <p1 x="-360" y="740"/>
+      <p2 x="-360" y="760"/>
+    </wire>
+    <wire><!-- small vertical between real states -->
+      <p1 x="-520" y="600"/>
+      <p2 x="-520" y="640"/>
+    </wire>
+    <wire><!-- long vertical between real states -->
+      <p1 x="-460" y="460"/>
+      <p2 x="-460" y="600"/>
+    </wire>
+    <wire><!-- shorter Action vertical (top left) -->
+      <p1 x="-560" y="240"/>
+      <p2 x="-560" y="380"/>
+    </wire>
+    <wire><!-- longer Action vertical -->
+      <p1 x="-560" y="380"/>
+      <p2 x="-560" y="660"/>
+    </wire>
+    <wire><!-- 1 G' predone -->
+      <p1 x="-400" y="460"/>
+      <p2 x="-400" y="480"/>
+    </wire>
+    <wire><!-- 1 G' done -->
+      <p1 x="-400" y="740"/>
+      <p2 x="-400" y="760"/>
+    </wire>
+    <wire><!-- # Q' predone -->
+      <p1 x="-340" y="460"/>
+      <p2 x="-340" y="480"/>
+    </wire>
+    <wire><!-- # Q' done -->
+      <p1 x="-340" y="740"/>
+      <p2 x="-340" y="760"/>
+    </wire>
+    <wire><!-- little from q near top -->
+      <p1 x="500" y="80"/>
+      <p2 x="500" y="100"/>
+    </wire>
+    <wire><!-- 0 G' predone -->
+      <p1 x="-440" y="460"/>
+      <p2 x="-440" y="480"/>
+    </wire>
+    <wire><!-- 0 G' done -->
+      <p1 x="-440" y="740"/>
+      <p2 x="-440" y="760"/>
+    </wire>
+    <wire><!--vertical fqo to from q -->
+      <p1 x="440" y="80"/>
+      <p2 x="440" y="120"/>
+    </wire>
+    <wire><!-- 1 Q' predone -->
+      <p1 x="-380" y="460"/>
+      <p2 x="-380" y="480"/>
+    </wire>
+    <wire><!-- 1 Q' done -->
+      <p1 x="-380" y="740"/>
+      <p2 x="-380" y="760"/>
+    </wire>
+    <wire><!-- long Lookup vertical -->
+      <p1 x="-540" y="400"/>
+      <p2 x="-540" y="680"/>
+    </wire>
+    <wire><!-- left G' predone -->
+      <p1 x="-480" y="460"/>
+      <p2 x="-480" y="480"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
