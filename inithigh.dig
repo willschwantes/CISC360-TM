@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Description</string>
+      <string>Emits 1 on startup, but as soon as the clock is high, switches to 0 permanently.  
+
+Useful for setting values on startup.</string>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="500" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>C</string>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>O</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="440"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="360" y="480"/>
+      <p2 x="380" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="420"/>
+      <p2 x="480" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="440"/>
+      <p2 x="380" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="460"/>
+      <p2 x="480" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="460"/>
+      <p2 x="560" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="460"/>
+      <p2 x="500" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="420"/>
+      <p2 x="480" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="420"/>
+      <p2 x="360" y="440"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
